@@ -16,7 +16,7 @@ init_struct:
         istruc sockaddr_in                      ;basic sockaddr_in implementation
                 at sin_family,  dw 2
                 at sin_port,    dw 0x391B
-                at sin_addr,    dd 0x5020B0A
+                at sin_addr,    dd 0x100007f
         iend
 
 section .text
