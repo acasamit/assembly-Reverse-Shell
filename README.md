@@ -12,7 +12,7 @@ Now open two terminals, do `nc -l 6969` to TERM1 and `./reverse_shell` to TERM2.
 You can now do commands from TERM1 to TERM2!
 
 # How to use it with two pc on the same network
-Convert PC1's ip and post to little-endian format.
+Convert PC1's ip and port to little-endian format.
 
 Replace the information on lines 18 and 19 in your assembly file:
 ```asm
